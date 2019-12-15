@@ -8,10 +8,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name='index_page'),
     path('tinymce/', include('tinymce.urls')),
-    path('post/<int:id>/', views.post, name='post_detail'),
-    path('posts/old/', views.posts, name='post_old'),
-    path('posts/<cat>/', views.categories, name='categories_list'),
-    path('posts/', views.allPosts, name='post_all'),
+    path('post/', include('post.urls')),
+    path('posts/', include('post.urls')),
 ]
 
 if settings.DEBUG:
