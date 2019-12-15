@@ -26,7 +26,6 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response, 'post.html')
 
     def test_new_post(self):
-
         self.post1.categories.add(self.category1)
         for categories_list in self.post1.categories.all():
             categories_string = str(categories_list)
