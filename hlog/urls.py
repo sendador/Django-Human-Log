@@ -9,7 +9,6 @@ urlpatterns = [
     path('', views.index, name='index_page'),
     path('tinymce/', include('tinymce.urls')),
     path('post/', include('post.urls')),
-    path('posts/', include('post.urls')),
 ]
 
 if settings.DEBUG:
