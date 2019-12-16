@@ -1,6 +1,5 @@
 from django.test import SimpleTestCase
 from django.urls import reverse, resolve
-from hlog import urls
 from post.views import index, post, posts, categories, allPosts
 
 
