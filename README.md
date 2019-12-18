@@ -5,7 +5,7 @@
 
 Easy to use django blog. Every admin movement is on the django admin panel.
 
-#Technologies:
+# Technologies:
 
 - Python
 - Django
@@ -15,7 +15,7 @@ Easy to use django blog. Every admin movement is on the django admin panel.
 - Travis CI for continuous integration service used to build and test 
 - TinyMCE for convenient post writing
 
-#Installation:
+# Installation:
 
 You can get repository from git by:
 <pre>git clone https://github.com/sendador/Django-Human-Log.git </pre>
@@ -33,7 +33,7 @@ For linux/mac:
 and install other dependency
 
 <pre>pip install -r requirements.txt</pre>
-#Usage
+# Usage
 Next you have to migrate your new database:
 
 <pre>python manage.py migrate</pre>
@@ -52,7 +52,7 @@ You can login to your admin account through:
 
 And then add some new post.
 
-To do list:
+# To do list:
 1. Docker for easy setup
 
 
