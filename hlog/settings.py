@@ -28,7 +28,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'post',
     'tinymce',
-    'fixture_magic',
 ]
 
 MIDDLEWARE = [
