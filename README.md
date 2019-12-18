@@ -1,8 +1,6 @@
+<a href="https://www.codacy.com/manual/sendador/Django-Human-Log?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sendador/Django-Human-Log&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/7f38ad72c303423890ce8e17f655a9ec"/></a>
+
 # Django Blog
 
-To do list:
-1. <s>Tests in proper files</s>
-2. Javascript swap on the middle of the screen
-3. <s>Bug Bounty!</s>
-4. Change some stock photos
-5. <s>Separate urls files</s>
+
+
