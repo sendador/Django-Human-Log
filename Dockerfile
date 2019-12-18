@@ -1,5 +1,4 @@
 FROM python:3.8
-MAINTAINER https://github.com/sendador
 
 #It's doesn't allow python to buffer the outputs. Just print them directly
 ENV PYTHONUNBUFFERED 1
