@@ -1,6 +1,6 @@
 <a href="https://www.codacy.com/manual/sendador/Django-Human-Log?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sendador/Django-Human-Log&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/7f38ad72c303423890ce8e17f655a9ec"/></a>
 [![Build Status](https://travis-ci.com/sendador/Django-Human-Log.svg?branch=master)](https://travis-ci.com/sendador/Django-Human-Log)
-
+[![codecov](https://codecov.io/gh/sendador/Django-Human-Log/branch/codecov-setup/graph/badge.svg)](https://codecov.io/gh/sendador/Django-Human-Log)
 # Django Blog:
 
 Blog is just only log for humans isn't?
@@ -12,11 +12,12 @@ This is easy to use django blog. Every admin movement is on the django admin pan
 - Django
 - Unit tests on models, urls, views
 - Coverage and codecov to improve test across the app
+- Selenium for functional tests
 - Django-environ for environmental variables
-- Codacy for automate code reviews and monitors code quality
+- Codacy for automate code reviews and monitor code quality
 - Travis CI for continuous integration service used to build and test 
 - TinyMCE for convenient post writing
-# Docker intallation:
+# Docker installation:
 Just clone repo
 <pre>git clone https://github.com/sendador/Django-Human-Log.git </pre>
 and then use docker-composer
