@@ -3,7 +3,8 @@
 
 # Django Blog:
 
-Easy to use django blog. Every admin movement is on the django admin panel.
+Blog is just only log for humans isn't?
+This is easy to use django blog. Every admin movement is on the django admin panel.
 
 # Technologies:
 
@@ -15,8 +16,14 @@ Easy to use django blog. Every admin movement is on the django admin panel.
 - Codacy for automate code reviews and monitors code quality
 - Travis CI for continuous integration service used to build and test 
 - TinyMCE for convenient post writing
-
-# Installation:
+# Docker intallation:
+Just clone repo
+<pre>git clone https://github.com/sendador/Django-Human-Log.git </pre>
+and then use docker-composer
+<pre>docker-compose up</pre>
+Your app will be on:
+<pre>localhost:8000</pre>
+# Manual Installation:
 
 You can get repository from git by:
 <pre>git clone https://github.com/sendador/Django-Human-Log.git </pre>
