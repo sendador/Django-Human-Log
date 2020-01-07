@@ -10,6 +10,7 @@ Easy to use django blog. Every admin movement is on the django admin panel.
 - Python
 - Django
 - Unit tests on models, urls, views
+- Coverage and codecov to improve test across the app
 - Django-environ for environmental variables
 - Codacy for automate code reviews and monitors code quality
 - Travis CI for continuous integration service used to build and test 
@@ -23,12 +24,14 @@ You can get repository from git by:
 It's good to use code in virtual environment. For that you can use virtualenv:
 
 <pre>pip install virtualenv</pre>
+Then create your virtualenv
+<pre>virtualenv venv</pre>
 
 Next activate virtual environment.<Br>
-For Windows:
-<pre>\Scripts\activate.ps1</pre>
-For linux/mac:
-<pre>source mypython/bin/activate</pre>
+For Windows powershell
+<pre>*your venv dir*\Scripts\activate.ps1</pre>
+or windows command
+<pre>*your venv dir*\Scripts\activate.bat</pre>
 
 and install other dependency
 
@@ -36,6 +39,8 @@ and install other dependency
 # Usage
 Next you have to migrate your new database:
 
+<pre>python manage.py makemigrations</pre>
+and then:
 <pre>python manage.py migrate</pre>
 
 And then create superuser for admin purposes:
@@ -52,8 +57,6 @@ You can login to your admin account through:
 
 And then add some new post.
 
-# To do list:
-1. Docker for easy setup
 
 
 
